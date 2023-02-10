@@ -6,7 +6,7 @@ This is a microservice that uses HTTP requests and responses as a communication 
 The server is found in server.js and runs locally on localhost:8000. The server receives three variables: current temperature unit, current temperature, and the desired temperature unit (in this example the server receives them from an HTML form). The server posts them to a localhost page where they'll then be put into a local text file (using JSON.stringify). The client.js can then access the file (temp.txt), parse it, compute the converted value, show it on the log and put it in the same text file.
 
 UML Diagram:
-![image](https://user-images.githubusercontent.com/86200364/198919376-549b8d97-9516-49bb-b083-c5ef6e71c793.png)
+![image](https://github.com/vitalysmnv/Assignment-8-Microservice/blob/3c38898bc2338ae699af576758b86aa077d4e5bb/public/198919376-549b8d97-9516-49bb-b083-c5ef6e71c793.png)
 
 To run the program, download all files in zip folder, extract them and open in VS Code.
 
